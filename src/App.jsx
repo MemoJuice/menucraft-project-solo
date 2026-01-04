@@ -1,3 +1,4 @@
+import DetailMenu from "./components/DetailMenu"
 import Hero from "./components/Hero"
 import NavBar from "./components/NavBar"
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <NavBar/>
       <Hero />
+      <DetailMenu />
     </div>
   )
 }

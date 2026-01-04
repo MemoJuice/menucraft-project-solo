@@ -1,9 +1,9 @@
 export default function NavBar() {
   return (
     <div>
-        <div class="navbar shadow-sm bg-black ">
+        <div class="navbar shadow-sm bg-orange-400 ">
   <div class="flex-1">
-    <a href="#" class="p-5 text-2xl font-extrabold text-green-500">MENUCRAFT</a>
+    <a href="#" class="p-5 text-2xl font-extrabold text-yellow-100 text-shadow-black">MENUCRAFT</a>
   </div>
   <div class="flex gap-2">
     <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />

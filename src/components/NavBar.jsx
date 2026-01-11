@@ -1,27 +1,27 @@
 export default function NavBar() {
   return (
     <div>
-        <div class="navbar shadow-sm bg-orange-400 ">
-  <div class="flex-1">
-    <a href="#" class="p-5 text-2xl font-extrabold text-yellow-100 text-shadow-black">MENUCRAFT</a>
+        <div className="navbar shadow-sm bg-orange-400 ">
+  <div className="flex-1">
+    <a href="#" className="p-5 text-2xl font-extrabold text-yellow-100 text-shadow-black">MENUCRAFT</a>
   </div>
-  <div class="flex gap-2">
-    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
-    <div class="dropdown dropdown-end">
-      <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-        <div class="w-10 rounded-full">
+  <div className="flex gap-2">
+    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+    <div className="dropdown dropdown-end">
+      <div tabIndex="0" role="button" className="btn btn-ghost btn-circle avatar">
+        <div className="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
             src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
         </div>
       </div>
       <ul
-        tabindex="-1"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        tabIndex="-1"
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li>
-          <a class="justify-between">
+          <a className="justify-between">
             Profile
-            <span class="badge">New</span>
+            <span className="badge">New</span>
           </a>
         </li>
         <li><a>Settings</a></li>

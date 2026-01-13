@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Layout from "./components/Layout";
-import Home from "./views/็Home";
+import Layout from "./components/Header-Footer/Layout";
+import HeroHome from "./views/HeroHome";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +11,7 @@ const router = createBrowserRouter([
         <h1 className="text-4xl">404 - Page Not Found</h1>
       </div>
     ),
-    children: [{ path: "/", element: <Home /> }],
+    children: [{ path: "/", element: <HeroHome /> }],
   },
 ]);
 

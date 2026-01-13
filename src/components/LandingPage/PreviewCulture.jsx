@@ -4,7 +4,7 @@ export default function PreviewCulture() {
   return (
     <section className="w-full py-10">
         <div className="mx-auto max-w-7xl">
-                <div className="carousel carousel-center bg-gray-900 max-w-7xl space-x-5 ">
+                <div className="carousel carousel-center bg-gray-50 max-w-7xl space-x-5  rounded-2xl ">
                     <div className="carousel-item w-70 h-70 ">
                         <img
                         src="https://media.timeout.com/images/105956654/750/422/image.jpg"

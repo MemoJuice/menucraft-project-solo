@@ -7,7 +7,7 @@ export default function FoodHero() {
           className="w-400 h-150 "
         />
         <div>
-          <p className=" absolute inset-19 font-bold text-6xl text-justify leading-13 text-white">
+          <p className=" absolute  font-bold text-6xl text-justify leading-14 text-white xl:inset-20">
             Ever dreamt of crafting dishes that impress Our expansive
             collection of recipes is meticulously designed to guide you,
             step by step, through every culinary adventure. Whether you're a

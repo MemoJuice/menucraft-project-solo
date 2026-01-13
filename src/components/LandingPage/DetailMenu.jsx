@@ -13,16 +13,14 @@ export default function DetailMenu() {
           src="https://media.istockphoto.com/id/809933218/photo/making-christmas-dinner.jpg?s=612x612&w=0&k=20&c=4UvJkQeX8ClZ-jf_o99HIz0JNNhyHHjg3k_AdzaqKpM="
         />
         <div className="absolute inset-33 flex-col text-center ">
-          <p className="text-5xl font-bold mb-10 ">
+          <p className="text-5xl font-bold mb-10 text-yellow-50 ">
             Discover What to Cook Today
           </p>
-          <button
-            class="btn"
-            href="#"
-            className="px-6 py-4 text-2xl text-yellow-50 bg-black font-medium rounded-2xl hover:bg-gray-900 "
-          >
-            View The Menu
-          </button>
+          <Link to="/viewfoods">
+            <button className="px-6 py-4 text-2xl text-yellow-50 bg-black font-medium rounded-2xl hover:bg-gray-900">
+              View The Menu
+            </button>
+          </Link>
         </div>
       </div>
     </section>
